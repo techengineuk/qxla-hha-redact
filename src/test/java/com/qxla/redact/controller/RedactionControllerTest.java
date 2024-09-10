@@ -1,4 +1,4 @@
-package com.techengine.qxla.redact.controller;
+package com.qxla.redact.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;

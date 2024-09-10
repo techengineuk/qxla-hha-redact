@@ -1,4 +1,4 @@
-package com.techengine.qxla.redact;
+package com.qxla.redact;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
