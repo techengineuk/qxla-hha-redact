@@ -21,7 +21,7 @@ For the purposes of this asessment the following assumptions have been made;
 * That only whole words will be redacted from any given text, e.g. Mammal but not Mammals.
 
 ## Instructions
-This application requires Java 17 in installation.
+This application requires Java 17 minimum installation.
 
 To start the application, run the following command from project root:
 ```shell
