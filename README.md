@@ -5,7 +5,7 @@ Find below a summary of details required for the new API end point which receive
 in the request body and returns the received text with any word that is in a defined, 
 configurable list, changed to 'REDACTED' in the response body.
 
-The list of words subject to redaction for testing purposes will are:
+The list of words subject to redaction for testing purposes are:
 * Dog
 * Cat
 * Snake
