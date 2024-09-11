@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * {@code @author:} Jane Ajayi
  * Redaction Service
- * Utitility class to redact text from a list of words
+ * Utility class to redact text from a list of words
  */
 @Component
 public class RedactionService {
