@@ -5,7 +5,7 @@ Find below a summary of details required for the new API end point which receive
 in the request body and returns the received text with any word that is in a defined, 
 configurable list, changed to 'REDACTED' in the response body.
 
-The list of words subject to redaction for testing purposes will are:
+The list of words subject to redaction for testing purposes are:
 * Dog
 * Cat
 * Snake
@@ -21,7 +21,7 @@ For the purposes of this asessment the following assumptions have been made;
 * That only whole words will be redacted from any given text, e.g. Mammal but not Mammals.
 
 ## Instructions
-This application requires Java 17 in installation.
+This application requires Java 17 minimum installation.
 
 To start the application, run the following command from project root:
 ```shell
