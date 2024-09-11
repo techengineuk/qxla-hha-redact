@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Created by Jane Ajayi on 10.09.2024.
+ * Redaction Controller
+ */
 @Controller
 @Slf4j
 public class RedactionController {
@@ -13,6 +17,9 @@ public class RedactionController {
     @Autowired
     private RedactionService redactionService;
 
+    /**
+     * @return Service Name
+     */
     @GetMapping("/redact")
     public @ResponseBody String getServiceName(){
 
@@ -21,6 +28,10 @@ public class RedactionController {
         return "Redaction Service";
     }
 
+    /**
+     * @param textForRedaction  Text to be redacted
+     * @return Redacted Text
+     */
     @PostMapping("/redact")
     public @ResponseBody String redact(@RequestBody String textForRedaction){
 

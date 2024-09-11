@@ -9,6 +9,13 @@ import org.springframework.test.context.TestPropertySource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+/**
+ * {@code @author:} Jane Ajayi
+
+ * Redaction Service Test
+
+ * Unit Tests for Redaction Service
+ */
 @SpringBootTest
 @TestPropertySource("classpath:test.properties")
 class RedactionServiceTest {
@@ -16,6 +23,9 @@ class RedactionServiceTest {
     @Autowired
     private RedactionService redactionService;
 
+    /**
+     * Test Redaction Service
+     */
     @Test
     void testRedact() {
 

@@ -9,6 +9,13 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * {@code @author:} Jane Ajayi
+
+ * Redaction Controller Test
+ 
+ * Unit Tests for Redaction Controller
+ */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class RedactionControllerTest {
 
@@ -33,6 +40,9 @@ public class RedactionControllerTest {
                 Who can say what a DogSnake is?""";
     }
 
+    /**
+     * Test GET request
+     */
     @Test
     public void testGet() {
 
@@ -46,6 +56,9 @@ public class RedactionControllerTest {
         assertEquals(expected, actual);
     }
 
+    /**
+     * Test POST request
+     */
     @Test
     public void testRedact() {
         //action
