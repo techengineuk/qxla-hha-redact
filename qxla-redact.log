@@ -26,3 +26,76 @@ Who can say what a DogSnake is?
 2024-09-11T15:43:59.546+01:00  INFO 12780 --- [qxla-redact] [main] c.q.redact.service.RedactionServiceTest  : Starting RedactionServiceTest using Java 22.0.1 with PID 12780 (started by janeajayi in /Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact)
 2024-09-11T15:43:59.547+01:00  INFO 12780 --- [qxla-redact] [main] c.q.redact.service.RedactionServiceTest  : No active profile set, falling back to 1 default profile: "default"
 2024-09-11T15:44:00.130+01:00  INFO 12780 --- [qxla-redact] [main] c.q.redact.service.RedactionServiceTest  : Started RedactionServiceTest in 0.623 seconds (process running for 14.575)
+2024-09-11T16:13:42.836+01:00  INFO 13917 --- [qxla-redact] [restartedMain] com.qxla.redact.QxlaRedactApplication    : Starting QxlaRedactApplication using Java 22.0.1 with PID 13917 (/Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact/target/classes started by janeajayi in /Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact)
+2024-09-11T16:13:42.844+01:00  INFO 13917 --- [qxla-redact] [restartedMain] com.qxla.redact.QxlaRedactApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T16:13:43.087+01:00  INFO 13917 --- [qxla-redact] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11T16:13:43.088+01:00  INFO 13917 --- [qxla-redact] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11T16:13:54.033+01:00  INFO 13917 --- [qxla-redact] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-11T16:13:54.126+01:00  INFO 13917 --- [qxla-redact] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T16:13:54.132+01:00  INFO 13917 --- [qxla-redact] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T16:13:54.373+01:00  INFO 13917 --- [qxla-redact] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11T16:13:54.375+01:00  INFO 13917 --- [qxla-redact] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11280 ms
+2024-09-11T16:13:59.119+01:00  INFO 13917 --- [qxla-redact] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T16:13:59.440+01:00  WARN 13917 --- [qxla-redact] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-11T16:13:59.547+01:00  INFO 13917 --- [qxla-redact] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-11T16:13:59.654+01:00 ERROR 13917 --- [qxla-redact] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-11T16:17:23.449+01:00  INFO 13994 --- [qxla-redact] [restartedMain] com.qxla.redact.QxlaRedactApplication    : Starting QxlaRedactApplication using Java 22.0.1 with PID 13994 (/Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact/target/classes started by janeajayi in /Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact)
+2024-09-11T16:17:23.464+01:00  INFO 13994 --- [qxla-redact] [restartedMain] com.qxla.redact.QxlaRedactApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T16:17:24.103+01:00  INFO 13994 --- [qxla-redact] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11T16:17:24.106+01:00  INFO 13994 --- [qxla-redact] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11T16:17:33.459+01:00  INFO 13994 --- [qxla-redact] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
+2024-09-11T16:17:33.494+01:00  INFO 13994 --- [qxla-redact] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T16:17:33.495+01:00  INFO 13994 --- [qxla-redact] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T16:17:34.324+01:00  INFO 13994 --- [qxla-redact] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11T16:17:34.326+01:00  INFO 13994 --- [qxla-redact] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10214 ms
+2024-09-11T16:17:37.129+01:00  INFO 13994 --- [qxla-redact] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11T16:17:37.366+01:00  INFO 13994 --- [qxla-redact] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path '/'
+2024-09-11T16:17:37.425+01:00  INFO 13994 --- [qxla-redact] [restartedMain] com.qxla.redact.QxlaRedactApplication    : Started QxlaRedactApplication in 18.743 seconds (process running for 29.245)
+2024-09-11T16:18:39.148+01:00  INFO 13994 --- [qxla-redact] [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11T16:18:39.155+01:00  INFO 13994 --- [qxla-redact] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11T16:18:39.212+01:00  INFO 13994 --- [qxla-redact] [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 54 ms
+2024-09-11T16:18:39.404+01:00  INFO 13994 --- [qxla-redact] [http-nio-8083-exec-2] c.q.r.controller.RedactionController     : Get request to /redact...
+2024-09-11T16:19:05.728+01:00  INFO 13994 --- [qxla-redact] [http-nio-8083-exec-3] c.q.r.controller.RedactionController     : Post request to /redact with text: A dog, a monkey or a dolphin are all mammals. A snake, however, is not a mammal, it is a reptile. Who can say what a DogSnake is?
+2024-09-11T16:25:51.790+01:00  INFO 14823 --- [qxla-redact] [main] c.q.redact.QxlaRedactApplicationTests    : Starting QxlaRedactApplicationTests using Java 17.0.2 with PID 14823 (started by janeajayi in /Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact)
+2024-09-11T16:25:51.796+01:00  INFO 14823 --- [qxla-redact] [main] c.q.redact.QxlaRedactApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T16:25:59.810+01:00  INFO 14823 --- [qxla-redact] [main] c.q.redact.QxlaRedactApplicationTests    : Started QxlaRedactApplicationTests in 11.09 seconds (process running for 16.886)
+2024-09-11T16:26:03.010+01:00  INFO 14823 --- [qxla-redact] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.qxla.redact.controller.RedactionControllerTest]: RedactionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-11T16:26:03.105+01:00  INFO 14823 --- [qxla-redact] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.qxla.redact.QxlaRedactApplication for test class com.qxla.redact.controller.RedactionControllerTest
+2024-09-11T16:26:03.189+01:00  INFO 14823 --- [qxla-redact] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-09-11T16:26:03.343+01:00  INFO 14823 --- [qxla-redact] [main] c.q.r.c.RedactionControllerTest          : Starting RedactionControllerTest using Java 17.0.2 with PID 14823 (started by janeajayi in /Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact)
+2024-09-11T16:26:03.345+01:00  INFO 14823 --- [qxla-redact] [main] c.q.r.c.RedactionControllerTest          : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T16:26:05.283+01:00  INFO 14823 --- [qxla-redact] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-09-11T16:26:05.346+01:00  INFO 14823 --- [qxla-redact] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11T16:26:05.347+01:00  INFO 14823 --- [qxla-redact] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-11T16:26:05.905+01:00  INFO 14823 --- [qxla-redact] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11T16:26:05.907+01:00  INFO 14823 --- [qxla-redact] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2558 ms
+2024-09-11T16:26:07.905+01:00  INFO 14823 --- [qxla-redact] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 49283 (http) with context path '/'
+2024-09-11T16:26:07.916+01:00  INFO 14823 --- [qxla-redact] [main] c.q.r.c.RedactionControllerTest          : Started RedactionControllerTest in 4.728 seconds (process running for 24.992)
+2024-09-11T16:26:08.658+01:00  INFO 14823 --- [qxla-redact] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11T16:26:08.660+01:00  INFO 14823 --- [qxla-redact] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11T16:26:08.662+01:00  INFO 14823 --- [qxla-redact] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-11T16:26:08.842+01:00  INFO 14823 --- [qxla-redact] [http-nio-auto-1-exec-1] c.q.r.controller.RedactionController     : Get request to /redact...
+2024-09-11T16:26:08.981+01:00  INFO 14823 --- [qxla-redact] [http-nio-auto-1-exec-2] c.q.r.controller.RedactionController     : Post request to /redact with text: A dog, a monkey or a dolphin are all mammals. 
+A snake, however, is not a mammal, it is a reptile. 
+Who can say what a DogSnake is?
+2024-09-11T16:26:09.075+01:00  INFO 14823 --- [qxla-redact] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.qxla.redact.service.RedactionServiceTest]: RedactionServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-11T16:26:09.099+01:00  INFO 14823 --- [qxla-redact] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.qxla.redact.QxlaRedactApplication for test class com.qxla.redact.service.RedactionServiceTest
+2024-09-11T16:26:09.128+01:00  INFO 14823 --- [qxla-redact] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-09-11T16:26:09.389+01:00  INFO 14823 --- [qxla-redact] [main] c.q.redact.service.RedactionServiceTest  : Starting RedactionServiceTest using Java 17.0.2 with PID 14823 (started by janeajayi in /Users/janeajayi/IdeaProjects/HHA-QXLA/qxla-redact)
+2024-09-11T16:26:09.410+01:00  INFO 14823 --- [qxla-redact] [main] c.q.redact.service.RedactionServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2024-09-11T16:26:11.453+01:00  INFO 14823 --- [qxla-redact] [main] c.q.redact.service.RedactionServiceTest  : Started RedactionServiceTest in 2.332 seconds (process running for 28.529)
