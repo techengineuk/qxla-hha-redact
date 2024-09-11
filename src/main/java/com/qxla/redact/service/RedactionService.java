@@ -37,9 +37,6 @@ public class RedactionService {
             //update input text
             inputText = redactedText;
         }
-
-
-
         return redactedText;
     }
 }
