@@ -3,9 +3,10 @@ package com.qxla.redact.controller;
 import com.qxla.redact.service.RedactionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+@Controller
 @Slf4j
 public class RedactionController {
 
@@ -15,7 +16,7 @@ public class RedactionController {
     @GetMapping("/redact")
     public @ResponseBody String getServiceName(){
 
-        log.info("Call to root uri...");
+        log.info("Get request to /redact...");
 
         return "Redaction Service";
     }
@@ -23,7 +24,7 @@ public class RedactionController {
     @PostMapping("/redact")
     public @ResponseBody String redact(@RequestBody String textForRedaction){
 
-        log.info("Call to /redact uri with text: " + textForRedaction);
+        log.info("Post request to /redact with text: " + textForRedaction);
 
         return redactionService.redact(textForRedaction);
     }
