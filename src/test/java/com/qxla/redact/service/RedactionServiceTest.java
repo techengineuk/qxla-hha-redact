@@ -1,13 +1,13 @@
 package com.qxla.redact.service;
 
 
+import com.qxla.redact.RedactionException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * {@code @author:} Jane Ajayi
@@ -47,5 +47,11 @@ class RedactionServiceTest {
         //test
         assertNotNull(actual);
         assertEquals(expected, actual);
+    }
+
+    @Test
+    void testInvalidInput() {
+        Exception exception = assertThrows(RedactionException.class, () -> redactionService.redact(""));
+        assertEquals("Redaction Input must not be empty or null.", exception.getMessage());
     }
 }

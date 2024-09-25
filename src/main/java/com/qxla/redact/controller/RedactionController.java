@@ -1,5 +1,6 @@
 package com.qxla.redact.controller;
 
+import com.qxla.redact.RedactionException;
 import com.qxla.redact.service.RedactionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

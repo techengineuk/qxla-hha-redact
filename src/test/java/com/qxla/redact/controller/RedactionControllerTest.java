@@ -62,7 +62,7 @@ public class RedactionControllerTest {
     @Test
     public void testRedact() {
         //action
-        String redactedText = restTemplate.postForEntity("http://localhost:" + port + "/redact", originalText, String.class).getBody();
+        String redactedText = restTemplate.postForEntity("http://localhost:" + port + "/redact", "", String.class).getBody();
 
         //test
         assertEquals(expectedRedactedText, redactedText);
