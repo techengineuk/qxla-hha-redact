@@ -44,4 +44,4 @@ http://localhost:8080/redact or http://localhost:[port]/redact
 ## Additional information
 * Logs can be found in the `qxla-redact.log` file which can be found in the project root.
 * Port Number can be re-configured in src/main/resources/application.properties file
-* Time Taken - I decided to use a test driven approach so it took around 5 - 6 hours to complete the assessment.
+* Time Taken - I decided to use a test driven approach and it took around 5 - 6 hours to complete the assessment.
