@@ -1,5 +1,6 @@
 package com.qxla.redact.service;
 
+import com.qxla.redact.RedactionException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -20,6 +21,10 @@ public class RedactionService {
 
     public String redact(String inputText) {
 
+        if(inputText == null || inputText.isEmpty())
+        {
+            throw new RedactionException("Redaction Input must not be empty or null.");
+        }
         String redactedText = inputText;
 
         for(String text : redactionWords){
